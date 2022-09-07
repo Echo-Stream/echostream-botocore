@@ -1,0 +1,6 @@
+black
+botocore
+build
+gql[requests]>=3.0.0
+pycognito
+virtualenv
