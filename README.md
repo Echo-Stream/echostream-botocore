@@ -4,6 +4,8 @@ Provides a `botocore.session.Session` implementation for accessing EchoStream Te
 
 This package provides two primary mechanisms to create a `botocore.session.Session` object in your EchoStream Tenant; `ApiSession` or `AppSession`. These session objects will automatically refresh both your Cognito credentials and your botocore credentials (using the EchoStream AppSync API).
 
+> Note: Version >= 0.1.0 requires Python 3.12
+
 ## Installation
 ```bash
 pip install echostream-botocore

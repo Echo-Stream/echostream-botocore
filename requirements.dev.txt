@@ -1,6 +1,6 @@
 black
 botocore
 build
-gql[requests]>=3.0.0
-pycognito
+gql[requests]==3.5.0
+pycognito==2024.5.1
 virtualenv
